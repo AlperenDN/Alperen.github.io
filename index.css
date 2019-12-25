@@ -1,0 +1,792 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+ul {
+	/* Ul stili*/
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+header h1 {
+	/* Logo*/
+	position: absolute;
+	float: none;
+	width: 167px;
+	top: 31px;
+	left: 50%;
+	margin-left: -84px;
+	height: 168px;
+	z-index: 999;
+
+}
+
+header h1 a img {
+	display: block;
+}
+
+#body {
+	/* arka plan*/
+	background-color:  #f0f2f2;
+}
+
+.menu1 {
+	position: relative;
+	padding-left: 144px;
+	padding-top: 97px;
+}
+
+nav>.menu {
+	text-align: center;
+}
+
+nav {
+	position: relative;
+	padding: 0px 0 0 0;
+}
+
+.menu ul {
+	position: absolute;
+	top: -999px;
+	display: none;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+.menu>li {
+	float: left;
+	position: relative;
+}
+
+.menu>li:first-child+li+li {
+	margin-right: 227px;
+}
+
+.menu>li+li {
+	margin-left: 28px;
+}
+
+.menu>li>a {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #fff;
+	position: relative;
+	font-weight: 300px;
+	line-height: 28px;
+	z-index: 999;
+	position: relative;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1152px;
+}
+
+.logo {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: -3px;
+	margin-right: 12px;
+}
+
+.container .logo {
+	width: 1128px;
+}
+
+#cerceve {
+	border: 0px solid black;
+	height: 220px;
+	background-color: #4284BF;
+}
+
+.SikKullanilan {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	height: 250px;
+	width: 250px;
+}
+
+.SikKullanilan1 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 500px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.SikKullanilan2 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 900px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.SikKullanilan3 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	height: 250px;
+	width: 250px;
+	margin-top: 50px;
+}
+
+.SikKullanilan4 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 500px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.SikKullanilan5 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 900px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.SikKullanilan6 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	height: 250px;
+	width: 250px;
+
+}
+
+.SikKullanilan7 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 500px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.SikKullanilan8 {
+	border: solid black 0px;
+	margin-top: 50px;
+	margin-left: 900px;
+	height: 250px;
+	width: 250px;
+	margin-top: -250px;
+}
+
+.Kullanim h5 {
+	margin-top: 250px;
+
+}
+
+.iletisim {
+	border: 0px solid black;
+	padding: 8px;
+	margin-left: 400px;
+	width: 550px;
+	background-color: #58a8d9;
+}
+
+.Kullanim h1 {
+	margin-left: 450px;
+}
+
+.footer {
+		background: #54a1bf;
+		width: 1349px;
+		height: 339px;
+		float: left;
+		color: black;
+		font-family: arial;
+	}
+
+	.footer #kutu b {
+		font-size: 14px;
+	}
+
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.footer_container {
+		width: 768px;
+		height: 175px;
+		margin: 30px auto;
+	}
+
+	.footer ul {
+		list-style-type: none;
+		margin: 17px 0;
+		padding: 0px;
+	}
+
+	.footer #kutu {
+		width: auto;
+		height: 125px;
+		float: left;
+	}
+
+	.footer ul li {
+		float: left;
+		font-family: tahoma;
+		font-size: 12px;
+		margin-bottom: 8px;
+		clear: left;
+		color:black;
+	}
+
+	.footer #kutu:last-child li {
+		float: left;
+		clear: none;
+		margin-right: 10px;
+	}
+
+.sayfalar {
+	margin-left: 100px;
+	-moz-text-decoration-style: double;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+}
+
+/* The Modal (background) */
+.modal1 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn1 {
+	margin-top: 5px;
+	margin-left: 60px;
+	background-color:  #f0f2f2;
+	border-style: none;
+}
+
+.foto {
+	height: 250px;
+	width: 250px;
+}
+
+.foto2 {
+	height: 250px;
+	width: 250px;
+}
+
+/* The Modal (background) */
+.modal2 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close2 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn2 {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: -10px;
+	width: 300px;
+}
+
+/* The Modal (background) */
+.modal3 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content3 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close3 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn3 {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 60px;
+}
+
+.modal4 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content4 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close4 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn4 {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 60px;
+}
+
+.modal5 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content5 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close5 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close5:hover,
+.close5:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn5 {
+	margin-top: 100px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 60px;
+}
+
+.kira {
+	margin-top: 100px;
+}
+
+.modal6 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content6 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close6 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close6:hover,
+.close6:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn6 {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 40px;
+}
+
+.otel2 {
+	margin-left: -40px;
+	margin-top: 40px;
+}
+
+.modal7 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content7 {
+	background-color:  #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close7 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn7 {
+	margin-top: 30px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 20px;
+}
+
+.otel3 {
+	height: 200px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.modal8 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content8 {
+	background-color: #f0f2f2;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close8 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close8:hover,
+.close8:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn8 {
+	margin-top: 15px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: 70px;
+}
+.medya{
+    height: 150px;
+    width: 150px;
+    border: solid 0px black;
+margin-top: -25px;
+}
+	.body {
+		height: 100%;
+		width: 100%;
+	  background-color:white;
+	}
+  

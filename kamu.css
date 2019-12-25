@@ -1,0 +1,390 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+ul {
+	/* Ul stili*/
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+header h1 {
+	/* Logo*/
+	position: absolute;
+	float: none;
+	width: 167px;
+	top: 31px;
+	left: 50%;
+	margin-left: -84px;
+	height: 168px;
+	z-index: 999;
+
+}
+
+header h1 a img {
+	display: block;
+}
+
+#body {
+	/* arka plan*/
+	background-color: #f0f2f2;
+}
+
+.menu1 {
+	position: relative;
+	padding-left: 144px;
+	padding-top: 97px;
+}
+
+nav>.menu {
+	text-align: center;
+}
+
+nav {
+	position: relative;
+	padding: 0px 0 0 0;
+}
+
+.menu ul {
+	position: absolute;
+	top: -999px;
+	display: none;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+.menu>li {
+	float: left;
+	position: relative;
+}
+
+.menu>li:first-child+li+li {
+	margin-right: 227px;
+}
+
+.menu>li+li {
+	margin-left: 28px;
+}
+
+.menu>li>a {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #fff;
+	position: relative;
+	font-weight: 300px;
+	line-height: 28px;
+	z-index: 999;
+	position: relative;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1152px;
+}
+
+.logo {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: -3px;
+	margin-right: 12px;
+}
+
+.container .logo {
+	width: 1128px;
+}
+
+#cerceve {
+	border: 0px solid black;
+	height: 220px;
+	background-color: #4284BF;
+}
+
+.SikKullanilan {
+	border: solid black 0px;
+	height: 250px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.SikKullanilan1 {
+	border: solid black 0px;
+	height: 250px;
+    width: 250px;
+    margin-top: 100px;
+}
+
+.SikKullanilan2 {
+	border: solid black 0px;
+	height: 250px;
+    width: 250px;
+    margin-top: 150px;
+}
+
+.footer {
+    background: #54a1bf;
+    width: 1349px;
+    height: 353px;
+    float: left;
+    color:black;
+	font-family: arial;
+	margin-top: 75px;
+}
+
+.footer #kutu b {
+    font-size: 14px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_container {
+    width: 768px;
+    height: 175px;
+    margin: 30px auto;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0px;
+}
+
+.footer #kutu {
+    width: auto;
+    height: 125px;
+    float: left;
+}
+
+.footer ul li {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+    margin-bottom: 8px;
+    clear: left;
+    color:black;
+}
+
+.footer #kutu:last-child li {
+    float: left;
+    clear: none;
+    margin-right: 10px;
+}
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn {
+	margin-top: -150px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: -40px;
+	width: 300px;
+}
+
+/* The Modal (background) */
+.modal1 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1 {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn1 {
+	margin-top: 5px;
+	margin-left: -40px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	width: 300px;
+}
+
+.foto {
+	height: 250px;
+	width: 250px;
+}
+
+.foto2 {
+	height: 250px;
+	width: 250px;
+}
+
+/* The Modal (background) */
+.modal2 {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close2 {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myBtn2 {
+	margin-top: 5px;
+	background-color:  #f0f2f2;
+	border-style: none;
+	margin-left: -40px;
+	width: 300px;
+}
+.kamu3{
+	border: solid 0px black;
+	width: 750px;
+	margin-left: 400px;
+	margin-top: -290px;
+}
+.kamu2{
+	border: solid 0px black;
+	width: 750px;
+	margin-left: 400px;
+	margin-top: -280px;
+}
+.kamu1{
+	border: solid 0px black;
+	width: 750px;
+	margin-left: 400px;
+	margin-top: -290px;
+}
+.dene{
+	margin-top: 15px;
+}
+.medya{
+    height: 150px;
+    width: 150px;
+    border: solid 0px black;
+margin-top: -25px;
+}
+.SikKullanilan h6{
+	margin-left: 20px;
+	width: 300px;
+}
+.SikKullanilan1 h6{
+	margin-left: 65px;
+}
